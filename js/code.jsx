@@ -41,9 +41,9 @@ var Convertor = React.createClass({
               defaultValue={this.state.input}
               onChange={this.update}
               placeholder="JSX code here..."
-              className="input-lg col-md-6">
+              className="input-lg col-xs-6">
             </textarea>
-            <pre className="input-lg col-md-6">{this.state.output}</pre>
+            <pre className="input-lg col-xs-6">{this.state.output}</pre>
           </div>
         </div>
       </div>
