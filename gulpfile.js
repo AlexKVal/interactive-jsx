@@ -14,7 +14,7 @@ gulp.task('html', function () {
 });
 
 gulp.task('watch', function () {
-  gulp.watch(['./*.html', 'css/*.*'], ['html']);
+  gulp.watch(['./*.html', 'css/*.*', 'js/*.*'], ['html']);
 });
 
 gulp.task('open_in_browser', ['server'],shell.task([
